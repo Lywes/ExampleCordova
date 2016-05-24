@@ -20,7 +20,7 @@
  *
  * @APPPLANT_LICENSE_HEADER_END@
  */
-
+#import <UIKit/UIKit.h>
 @interface UIApplication (APPBadge)
 
 // If the app has the permission to display badges
