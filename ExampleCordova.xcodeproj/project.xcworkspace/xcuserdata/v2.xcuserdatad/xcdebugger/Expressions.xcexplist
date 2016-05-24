@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CDVViewController viewDidLoad]:CDVViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.startupPluginNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController viewDidLoad]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CDVUIWebViewEngine pluginInitialize]:CDVUIWebViewEngine.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navWebViewDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CDVUIWebViewNavigationDelegate webView:shouldStartLoadWithRequest:navigationType:]:CDVUIWebViewNavigationDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.enginePlugin.viewController">
+            </PersistentString>
+            <PersistentString
+               value = "vc.pluginObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

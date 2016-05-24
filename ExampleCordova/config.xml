@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="ImagePicker">
+        <param name="ios-package" value="CTPicker" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="ios-package" onload="true" value="IonicKeyboard" />
+    </feature>
+    <feature name="Wechat">
+        <param name="ios-package" value="CDVWechat" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CDVAlipay">
+        <param name="ios-package" value="CDVAlipay" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UmengAnalyticsPlugin">
+        <param name="ios-package" value="UmengAnalyticsPlugin" />
+    </feature>
+    <feature name="YourPluginName">
+        <param name="ios-package" value="EOPlugin" />
+    </feature>
+    <feature name="CDVWebObserverPlugin">
+        <param name="ios-package" value="CDVWebObserverPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UpdateApp">
+        <param name="ios-package" value="CDVUpdateApp" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="ios-package" value="AppVersion" />
+    </feature>
+    <feature name="Badge">
+        <param name="ios-package" value="APPBadge" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" vloalue="CDVConnection" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="ios-package" value="CDVFileTransfer" />
+    </feature>
+    <name>HelloWorld</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="http://mtshop.v2gogo.com/#" />
+<!--    <content src="index.html" />-->
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+<!--    <allow-navigation href="http://mtshop.v2gogo.com/*" />-->
+<!--    <allow-navigation href="http://mt.anong.com/*" />-->
+<!--    <allow-navigation href="http://m.anong.com/*" />-->
+<!--    <allow-navigation href="http://openapi.baidu.com/*" />-->
+<!--    <allow-navigation href="http://vouchers.baidu.com/*" />-->
+<!--    <allow-navigation href="http://www.baidu.com/*" />-->
+<!--    <allow-navigation href="https://m.baidu.com/*" />-->
+<!--    <allow-navigation href="http://test-api.v2gogo.com/*" />-->
+<!--    <allow-navigation href="http://1.eggs.applinzi.com/*" />-->
+    <allow-navigation href="*" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="CameraUsesGeolocation" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="WECHATAPPID" value="wxc2f5f910fa9d0189" />
+</widget>

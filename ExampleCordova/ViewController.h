@@ -6,9 +6,8 @@
 //  Copyright © 2016年 v2. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "CDVWebMainController.h"
+@interface ViewController : CDVWebMainController
 
 
 @end
