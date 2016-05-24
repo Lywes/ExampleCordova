@@ -61,6 +61,30 @@
 		96290E491CF420C0003741BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96290E481CF420C0003741BB /* UIKit.framework */; };
 		96290E7B1CF42ADA003741BB /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 96290E781CF42ADA003741BB /* CDVConnection.m */; };
 		96290E7C1CF42ADB003741BB /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 96290E7A1CF42ADA003741BB /* CDVReachability.m */; };
+		96290EAA1CF44538003741BB /* isChrome.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E8F1CF44538003741BB /* isChrome.js */; };
+		96290EAB1CF44538003741BB /* DirectoryEntry.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E901CF44538003741BB /* DirectoryEntry.js */; };
+		96290EAC1CF44538003741BB /* DirectoryReader.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E911CF44538003741BB /* DirectoryReader.js */; };
+		96290EAD1CF44538003741BB /* Entry.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E921CF44538003741BB /* Entry.js */; };
+		96290EAE1CF44538003741BB /* File.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E931CF44538003741BB /* File.js */; };
+		96290EAF1CF44538003741BB /* FileEntry.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E941CF44538003741BB /* FileEntry.js */; };
+		96290EB01CF44538003741BB /* FileError.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E951CF44538003741BB /* FileError.js */; };
+		96290EB11CF44538003741BB /* FileReader.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E961CF44538003741BB /* FileReader.js */; };
+		96290EB21CF44538003741BB /* FileSystem.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E971CF44538003741BB /* FileSystem.js */; };
+		96290EB31CF44538003741BB /* fileSystemPaths.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E981CF44538003741BB /* fileSystemPaths.js */; };
+		96290EB41CF44538003741BB /* fileSystems-roots.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E991CF44538003741BB /* fileSystems-roots.js */; };
+		96290EB51CF44538003741BB /* fileSystems.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E9A1CF44538003741BB /* fileSystems.js */; };
+		96290EB61CF44538003741BB /* FileUploadOptions.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E9B1CF44538003741BB /* FileUploadOptions.js */; };
+		96290EB71CF44538003741BB /* FileUploadResult.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E9C1CF44538003741BB /* FileUploadResult.js */; };
+		96290EB81CF44538003741BB /* FileWriter.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E9D1CF44538003741BB /* FileWriter.js */; };
+		96290EB91CF44538003741BB /* Flags.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290E9E1CF44538003741BB /* Flags.js */; };
+		96290EBA1CF44538003741BB /* FileSystem.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA01CF44538003741BB /* FileSystem.js */; };
+		96290EBB1CF44538003741BB /* LocalFileSystem.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA11CF44538003741BB /* LocalFileSystem.js */; };
+		96290EBC1CF44538003741BB /* Metadata.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA21CF44538003741BB /* Metadata.js */; };
+		96290EBD1CF44538003741BB /* ProgressEvent.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA31CF44538003741BB /* ProgressEvent.js */; };
+		96290EBE1CF44538003741BB /* requestFileSystem.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA41CF44538003741BB /* requestFileSystem.js */; };
+		96290EBF1CF44538003741BB /* resolveLocalFileSystemURI.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA51CF44538003741BB /* resolveLocalFileSystemURI.js */; };
+		96290EC01CF44538003741BB /* FileTransfer.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA81CF44538003741BB /* FileTransfer.js */; };
+		96290EC11CF44538003741BB /* FileTransferError.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA91CF44538003741BB /* FileTransferError.js */; };
 		963B09B21CEAFFEE0031C038 /* exec.js in Resources */ = {isa = PBXBuildFile; fileRef = 963B099F1CEAFFEE0031C038 /* exec.js */; };
 		963B09B31CEAFFEE0031C038 /* platform.js in Resources */ = {isa = PBXBuildFile; fileRef = 963B09A01CEAFFEE0031C038 /* platform.js */; };
 		963B09B41CEAFFEE0031C038 /* cordova.js in Resources */ = {isa = PBXBuildFile; fileRef = 963B09A11CEAFFEE0031C038 /* cordova.js */; };
@@ -204,6 +228,30 @@
 		96290E781CF42ADA003741BB /* CDVConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVConnection.m; sourceTree = "<group>"; };
 		96290E791CF42ADA003741BB /* CDVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVReachability.h; sourceTree = "<group>"; };
 		96290E7A1CF42ADA003741BB /* CDVReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVReachability.m; sourceTree = "<group>"; };
+		96290E8F1CF44538003741BB /* isChrome.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = isChrome.js; sourceTree = "<group>"; };
+		96290E901CF44538003741BB /* DirectoryEntry.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DirectoryEntry.js; sourceTree = "<group>"; };
+		96290E911CF44538003741BB /* DirectoryReader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DirectoryReader.js; sourceTree = "<group>"; };
+		96290E921CF44538003741BB /* Entry.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Entry.js; sourceTree = "<group>"; };
+		96290E931CF44538003741BB /* File.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = File.js; sourceTree = "<group>"; };
+		96290E941CF44538003741BB /* FileEntry.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileEntry.js; sourceTree = "<group>"; };
+		96290E951CF44538003741BB /* FileError.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileError.js; sourceTree = "<group>"; };
+		96290E961CF44538003741BB /* FileReader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileReader.js; sourceTree = "<group>"; };
+		96290E971CF44538003741BB /* FileSystem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileSystem.js; sourceTree = "<group>"; };
+		96290E981CF44538003741BB /* fileSystemPaths.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fileSystemPaths.js; sourceTree = "<group>"; };
+		96290E991CF44538003741BB /* fileSystems-roots.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "fileSystems-roots.js"; sourceTree = "<group>"; };
+		96290E9A1CF44538003741BB /* fileSystems.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fileSystems.js; sourceTree = "<group>"; };
+		96290E9B1CF44538003741BB /* FileUploadOptions.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileUploadOptions.js; sourceTree = "<group>"; };
+		96290E9C1CF44538003741BB /* FileUploadResult.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileUploadResult.js; sourceTree = "<group>"; };
+		96290E9D1CF44538003741BB /* FileWriter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileWriter.js; sourceTree = "<group>"; };
+		96290E9E1CF44538003741BB /* Flags.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flags.js; sourceTree = "<group>"; };
+		96290EA01CF44538003741BB /* FileSystem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileSystem.js; sourceTree = "<group>"; };
+		96290EA11CF44538003741BB /* LocalFileSystem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = LocalFileSystem.js; sourceTree = "<group>"; };
+		96290EA21CF44538003741BB /* Metadata.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Metadata.js; sourceTree = "<group>"; };
+		96290EA31CF44538003741BB /* ProgressEvent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ProgressEvent.js; sourceTree = "<group>"; };
+		96290EA41CF44538003741BB /* requestFileSystem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = requestFileSystem.js; sourceTree = "<group>"; };
+		96290EA51CF44538003741BB /* resolveLocalFileSystemURI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = resolveLocalFileSystemURI.js; sourceTree = "<group>"; };
+		96290EA81CF44538003741BB /* FileTransfer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileTransfer.js; sourceTree = "<group>"; };
+		96290EA91CF44538003741BB /* FileTransferError.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileTransferError.js; sourceTree = "<group>"; };
 		963B099F1CEAFFEE0031C038 /* exec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exec.js; sourceTree = "<group>"; };
 		963B09A01CEAFFEE0031C038 /* platform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = platform.js; sourceTree = "<group>"; };
 		963B09A11CEAFFEE0031C038 /* cordova.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
@@ -586,6 +634,76 @@
 			path = "cordova-plugin-network-information";
 			sourceTree = "<group>";
 		};
+		96290E8C1CF44538003741BB /* cordova-plugin-file */ = {
+			isa = PBXGroup;
+			children = (
+				96290E8D1CF44538003741BB /* www */,
+			);
+			path = "cordova-plugin-file";
+			sourceTree = "<group>";
+		};
+		96290E8D1CF44538003741BB /* www */ = {
+			isa = PBXGroup;
+			children = (
+				96290E8E1CF44538003741BB /* browser */,
+				96290E901CF44538003741BB /* DirectoryEntry.js */,
+				96290E911CF44538003741BB /* DirectoryReader.js */,
+				96290E921CF44538003741BB /* Entry.js */,
+				96290E931CF44538003741BB /* File.js */,
+				96290E941CF44538003741BB /* FileEntry.js */,
+				96290E951CF44538003741BB /* FileError.js */,
+				96290E961CF44538003741BB /* FileReader.js */,
+				96290E971CF44538003741BB /* FileSystem.js */,
+				96290E981CF44538003741BB /* fileSystemPaths.js */,
+				96290E991CF44538003741BB /* fileSystems-roots.js */,
+				96290E9A1CF44538003741BB /* fileSystems.js */,
+				96290E9B1CF44538003741BB /* FileUploadOptions.js */,
+				96290E9C1CF44538003741BB /* FileUploadResult.js */,
+				96290E9D1CF44538003741BB /* FileWriter.js */,
+				96290E9E1CF44538003741BB /* Flags.js */,
+				96290E9F1CF44538003741BB /* ios */,
+				96290EA11CF44538003741BB /* LocalFileSystem.js */,
+				96290EA21CF44538003741BB /* Metadata.js */,
+				96290EA31CF44538003741BB /* ProgressEvent.js */,
+				96290EA41CF44538003741BB /* requestFileSystem.js */,
+				96290EA51CF44538003741BB /* resolveLocalFileSystemURI.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		96290E8E1CF44538003741BB /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				96290E8F1CF44538003741BB /* isChrome.js */,
+			);
+			path = browser;
+			sourceTree = "<group>";
+		};
+		96290E9F1CF44538003741BB /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				96290EA01CF44538003741BB /* FileSystem.js */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		96290EA61CF44538003741BB /* cordova-plugin-file-transfer */ = {
+			isa = PBXGroup;
+			children = (
+				96290EA71CF44538003741BB /* www */,
+			);
+			path = "cordova-plugin-file-transfer";
+			sourceTree = "<group>";
+		};
+		96290EA71CF44538003741BB /* www */ = {
+			isa = PBXGroup;
+			children = (
+				96290EA81CF44538003741BB /* FileTransfer.js */,
+				96290EA91CF44538003741BB /* FileTransferError.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
 		963B099D1CEAFFEE0031C038 /* www */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +755,8 @@
 		963B09AA1CEAFFEE0031C038 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				96290E8C1CF44538003741BB /* cordova-plugin-file */,
+				96290EA61CF44538003741BB /* cordova-plugin-file-transfer */,
 				96F54E701CF024F200C3DD4D /* cn.zxj.cordova.UmengAnalyticsPlugin */,
 				96F54E731CF024F200C3DD4D /* zhougn.cordova.plugin.alipay */,
 				9609F6661CEC83E9006CF1A8 /* cordova-plugin-imagepicker */,
@@ -897,28 +1017,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				9609F6761CEC83E9006CF1A8 /* imagepicker.js in Resources */,
+				96290EB01CF44538003741BB /* FileError.js in Resources */,
 				960D23161CEAB1A800BC6475 /* LaunchScreen.storyboard in Resources */,
 				963B09BD1CEAFFEE0031C038 /* CameraPopoverHandle.js in Resources */,
 				963B09BB1CEAFFEE0031C038 /* CameraConstants.js in Resources */,
+				96290EB81CF44538003741BB /* FileWriter.js in Resources */,
 				963B09B81CEAFFEE0031C038 /* index.html in Resources */,
+				96290EC11CF44538003741BB /* FileTransferError.js in Resources */,
 				9609F6791CEC83E9006CF1A8 /* keyboard.js in Resources */,
 				963B09B31CEAFFEE0031C038 /* platform.js in Resources */,
 				963B09B91CEAFFEE0031C038 /* index.js in Resources */,
 				960D23131CEAB1A800BC6475 /* Assets.xcassets in Resources */,
+				96290EAC1CF44538003741BB /* DirectoryReader.js in Resources */,
 				9609F67A1CEC83E9006CF1A8 /* wechat.js in Resources */,
+				96290EB31CF44538003741BB /* fileSystemPaths.js in Resources */,
+				96290EAA1CF44538003741BB /* isChrome.js in Resources */,
+				96290EBB1CF44538003741BB /* LocalFileSystem.js in Resources */,
+				96290EBA1CF44538003741BB /* FileSystem.js in Resources */,
+				96290EB61CF44538003741BB /* FileUploadOptions.js in Resources */,
 				963B09B21CEAFFEE0031C038 /* exec.js in Resources */,
 				963B09B51CEAFFEE0031C038 /* cordova_plugins.js in Resources */,
+				96290EB91CF44538003741BB /* Flags.js in Resources */,
+				96290EB71CF44538003741BB /* FileUploadResult.js in Resources */,
 				9609F6771CEC83E9006CF1A8 /* inappbrowser.js in Resources */,
 				96F54E761CF024F200C3DD4D /* UmengAnalyticsPlugin.js in Resources */,
 				96F54E771CF024F200C3DD4D /* cdv-alipay.js in Resources */,
+				96290EAB1CF44538003741BB /* DirectoryEntry.js in Resources */,
+				96290EAE1CF44538003741BB /* File.js in Resources */,
+				96290EBC1CF44538003741BB /* Metadata.js in Resources */,
 				963B09BA1CEAFFEE0031C038 /* Camera.js in Resources */,
+				96290EB11CF44538003741BB /* FileReader.js in Resources */,
 				9652A10C1CEEFA65003DF7F2 /* config.xml in Resources */,
+				96290EC01CF44538003741BB /* FileTransfer.js in Resources */,
+				96290EB21CF44538003741BB /* FileSystem.js in Resources */,
+				96290EBD1CF44538003741BB /* ProgressEvent.js in Resources */,
 				960D23111CEAB1A800BC6475 /* Main.storyboard in Resources */,
+				96290EB51CF44538003741BB /* fileSystems.js in Resources */,
+				96290EBE1CF44538003741BB /* requestFileSystem.js in Resources */,
 				963B09B71CEAFFEE0031C038 /* logo.png in Resources */,
+				96290EB41CF44538003741BB /* fileSystems-roots.js in Resources */,
+				96290EAD1CF44538003741BB /* Entry.js in Resources */,
 				963B09BC1CEAFFEE0031C038 /* CameraPopoverOptions.js in Resources */,
 				9609F6781CEC83E9006CF1A8 /* statusbar.js in Resources */,
 				963B09CF1CEB01F00031C038 /* device.js in Resources */,
+				96290EAF1CF44538003741BB /* FileEntry.js in Resources */,
 				963B09DE1CEB01F60031C038 /* config.xml in Resources */,
+				96290EBF1CF44538003741BB /* resolveLocalFileSystemURI.js in Resources */,
 				963B09B41CEAFFEE0031C038 /* cordova.js in Resources */,
 				963B09B61CEAFFEE0031C038 /* index.css in Resources */,
 			);
