@@ -20,7 +20,6 @@
  *
  * @APPPLANT_LICENSE_HEADER_END@
  */
-#import <UIKit/UIKit.h>
 
 @interface UIApplication (APPBadge)
 

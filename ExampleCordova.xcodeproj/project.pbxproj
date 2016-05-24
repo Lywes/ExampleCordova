@@ -85,6 +85,10 @@
 		96290EBF1CF44538003741BB /* resolveLocalFileSystemURI.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA51CF44538003741BB /* resolveLocalFileSystemURI.js */; };
 		96290EC01CF44538003741BB /* FileTransfer.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA81CF44538003741BB /* FileTransfer.js */; };
 		96290EC11CF44538003741BB /* FileTransferError.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EA91CF44538003741BB /* FileTransferError.js */; };
+		96290ECC1CF447E5003741BB /* AppVersionPlugin.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EC41CF447E5003741BB /* AppVersionPlugin.js */; };
+		96290ECD1CF447E5003741BB /* badge.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290EC71CF447E5003741BB /* badge.js */; };
+		96290ECE1CF447E5003741BB /* Connection.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290ECA1CF447E5003741BB /* Connection.js */; };
+		96290ECF1CF447E5003741BB /* network.js in Resources */ = {isa = PBXBuildFile; fileRef = 96290ECB1CF447E5003741BB /* network.js */; };
 		963B09B21CEAFFEE0031C038 /* exec.js in Resources */ = {isa = PBXBuildFile; fileRef = 963B099F1CEAFFEE0031C038 /* exec.js */; };
 		963B09B31CEAFFEE0031C038 /* platform.js in Resources */ = {isa = PBXBuildFile; fileRef = 963B09A01CEAFFEE0031C038 /* platform.js */; };
 		963B09B41CEAFFEE0031C038 /* cordova.js in Resources */ = {isa = PBXBuildFile; fileRef = 963B09A11CEAFFEE0031C038 /* cordova.js */; };
@@ -252,6 +256,10 @@
 		96290EA51CF44538003741BB /* resolveLocalFileSystemURI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = resolveLocalFileSystemURI.js; sourceTree = "<group>"; };
 		96290EA81CF44538003741BB /* FileTransfer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileTransfer.js; sourceTree = "<group>"; };
 		96290EA91CF44538003741BB /* FileTransferError.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FileTransferError.js; sourceTree = "<group>"; };
+		96290EC41CF447E5003741BB /* AppVersionPlugin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AppVersionPlugin.js; sourceTree = "<group>"; };
+		96290EC71CF447E5003741BB /* badge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = badge.js; sourceTree = "<group>"; };
+		96290ECA1CF447E5003741BB /* Connection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Connection.js; sourceTree = "<group>"; };
+		96290ECB1CF447E5003741BB /* network.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = network.js; sourceTree = "<group>"; };
 		963B099F1CEAFFEE0031C038 /* exec.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exec.js; sourceTree = "<group>"; };
 		963B09A01CEAFFEE0031C038 /* platform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = platform.js; sourceTree = "<group>"; };
 		963B09A11CEAFFEE0031C038 /* cordova.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
@@ -704,6 +712,55 @@
 			path = www;
 			sourceTree = "<group>";
 		};
+		96290EC21CF447E5003741BB /* cordova-plugin-app-version */ = {
+			isa = PBXGroup;
+			children = (
+				96290EC31CF447E5003741BB /* www */,
+			);
+			path = "cordova-plugin-app-version";
+			sourceTree = "<group>";
+		};
+		96290EC31CF447E5003741BB /* www */ = {
+			isa = PBXGroup;
+			children = (
+				96290EC41CF447E5003741BB /* AppVersionPlugin.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		96290EC51CF447E5003741BB /* cordova-plugin-badge */ = {
+			isa = PBXGroup;
+			children = (
+				96290EC61CF447E5003741BB /* www */,
+			);
+			path = "cordova-plugin-badge";
+			sourceTree = "<group>";
+		};
+		96290EC61CF447E5003741BB /* www */ = {
+			isa = PBXGroup;
+			children = (
+				96290EC71CF447E5003741BB /* badge.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		96290EC81CF447E5003741BB /* cordova-plugin-network-information */ = {
+			isa = PBXGroup;
+			children = (
+				96290EC91CF447E5003741BB /* www */,
+			);
+			path = "cordova-plugin-network-information";
+			sourceTree = "<group>";
+		};
+		96290EC91CF447E5003741BB /* www */ = {
+			isa = PBXGroup;
+			children = (
+				96290ECA1CF447E5003741BB /* Connection.js */,
+				96290ECB1CF447E5003741BB /* network.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
 		963B099D1CEAFFEE0031C038 /* www */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,6 +812,9 @@
 		963B09AA1CEAFFEE0031C038 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				96290EC21CF447E5003741BB /* cordova-plugin-app-version */,
+				96290EC51CF447E5003741BB /* cordova-plugin-badge */,
+				96290EC81CF447E5003741BB /* cordova-plugin-network-information */,
 				96290E8C1CF44538003741BB /* cordova-plugin-file */,
 				96290EA61CF44538003741BB /* cordova-plugin-file-transfer */,
 				96F54E701CF024F200C3DD4D /* cn.zxj.cordova.UmengAnalyticsPlugin */,
@@ -1052,16 +1112,20 @@
 				96290EB21CF44538003741BB /* FileSystem.js in Resources */,
 				96290EBD1CF44538003741BB /* ProgressEvent.js in Resources */,
 				960D23111CEAB1A800BC6475 /* Main.storyboard in Resources */,
+				96290ECC1CF447E5003741BB /* AppVersionPlugin.js in Resources */,
 				96290EB51CF44538003741BB /* fileSystems.js in Resources */,
 				96290EBE1CF44538003741BB /* requestFileSystem.js in Resources */,
 				963B09B71CEAFFEE0031C038 /* logo.png in Resources */,
+				96290ECE1CF447E5003741BB /* Connection.js in Resources */,
 				96290EB41CF44538003741BB /* fileSystems-roots.js in Resources */,
 				96290EAD1CF44538003741BB /* Entry.js in Resources */,
+				96290ECF1CF447E5003741BB /* network.js in Resources */,
 				963B09BC1CEAFFEE0031C038 /* CameraPopoverOptions.js in Resources */,
 				9609F6781CEC83E9006CF1A8 /* statusbar.js in Resources */,
 				963B09CF1CEB01F00031C038 /* device.js in Resources */,
 				96290EAF1CF44538003741BB /* FileEntry.js in Resources */,
 				963B09DE1CEB01F60031C038 /* config.xml in Resources */,
+				96290ECD1CF447E5003741BB /* badge.js in Resources */,
 				96290EBF1CF44538003741BB /* resolveLocalFileSystemURI.js in Resources */,
 				963B09B41CEAFFEE0031C038 /* cordova.js in Resources */,
 				963B09B61CEAFFEE0031C038 /* index.css in Resources */,
